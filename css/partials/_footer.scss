@@ -1,0 +1,61 @@
+footer {
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-inline: 2rem;
+	background-color: $background-color_8;
+	width: 100%;
+}
+.footer-container {
+	display: flex;
+	font-family: $font-family_2;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 15rem;
+	max-width: 100%;
+	padding-inline: 2rem;
+	div {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 1rem;
+		align-items: flex-start;
+		max-width: 400px;
+	}
+	a {
+		color: $color_14;
+	}
+	i {
+		color: $color_14;
+	}
+	p {
+		color: $color_14;
+	}
+}
+.grab-logo-footer {
+	width: 90px;
+}
+.copyright {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: $background-color_9;
+	color: $color_5;
+	gap: 1rem;
+	font-family: $font-family_2;
+	padding: 1rem;
+	img {
+		border-radius: 5px;
+	}
+}
+.icons-phone {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}

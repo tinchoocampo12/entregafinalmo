@@ -1,0 +1,149 @@
+.contact-us {
+	background-color: $background-color_2;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: $font-family_1;
+}
+.contact-texto {
+	color: $color_5;
+	width: 500px;
+	font-family: $font-family_1;
+	text-align: left;
+	h2 {
+		font-size: 50px;
+		margin-bottom: 1rem;
+		line-height: 150%;
+	}
+	p {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 150%;
+	}
+}
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+	margin: 2rem;
+}
+.contact-form {
+	background-color: $background-color_8;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+	padding: 2rem 3rem;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.contact-title2 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: $color_12;
+	line-height: 150%;
+}
+.contact-campos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+.contact-campos2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+.input-style {
+	display: block;
+	width: 100%;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $color_12;
+	background-color: $background-color_6;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0.375rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	line-height: 150%;
+	&::placeholder {
+		color: $color_13;
+		font-family: $font-family_1;
+		font-size: 14px;
+		line-height: 150%;
+	}
+}
+textarea {
+	display: block;
+	width: 100%;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $color_12;
+	background-color: $background-color_6;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0.375rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	line-height: 150%;
+	display: block;
+	width: 100%;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $color_12;
+	background-color: $background-color_6;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0.375rem;
+	line-height: 150%;
+}
+.textarea {
+	&::placeholder {
+		color: $color_13;
+		font-family: $font-family_1;
+		font-size: 14px;
+		line-height: 150%;
+	}
+}
+.submit {
+	background-color: $background-color_2;
+	width: 100%;
+	font-family: $font-family_1;
+	font-weight: 500;
+	color: $color_5;
+	font-size: 1rem;
+	border-radius: 50px;
+	margin: 1rem 1rem 1rem 0rem;
+	padding: 7px 20px;
+	border-style: none;
+	cursor: pointer;
+	transition: 0.5s ease;
+}

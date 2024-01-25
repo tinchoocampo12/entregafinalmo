@@ -1,0 +1,470 @@
+@media screen and (max-width: 1120px) {
+    .hero-principal {
+      gap: 0;
+    }
+  
+    .cards {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+      max-width: 100%;
+      padding-bottom: 2rem;
+      padding-inline: 200px;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+    .banner-div {
+      gap: 5rem;
+      padding: 3rem 2rem;
+    }
+  
+    .footer-container {
+      gap: 8rem;
+    }
+  
+    @media screen and (max-width: 1100px) {
+      .abrir-menu,
+      .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      .menu-btn {
+        display: none;
+      }
+  
+      .abrir-menu {
+        color: #2e2e2e;
+      }
+  
+      .cerrar-menu {
+        color: #2e2e2e;
+      }
+  
+      .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        padding: 2rem 2rem 0rem 4rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+      }
+  
+      .nav.visible {
+        opacity: 1;
+        visibility: visible;
+        transition: 0.4s ease-in;
+      }
+  
+      .nav-list {
+        flex-direction: column;
+        align-items: end;
+      }
+  
+      .nav-list li a {
+        color: #00b14f;
+      }
+  
+      .hero-principal {
+        overflow-x: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 2rem;
+      }
+      .texto-intro {
+        max-width: 100%;
+      }
+  
+      .texto-intro h2 {
+        max-width: 600px;
+      }
+      .texto-intro p {
+        max-width: 700px;
+      }
+      .img-intro img {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      header {
+        padding-inline: 40px;
+      }
+      .banner-div-container h2 {
+        font-size: 40px;
+      }
+      .banner-div-container p {
+        font-size: 15px;
+      }
+      .app-title h2 {
+        width: auto;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .about-us {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .about-us-container {
+      flex-direction: column;
+    }
+  
+    .textos {
+      max-width: 100%;
+      align-items: center;
+    }
+    .textos1 {
+      align-items: center;
+    }
+    .parent {
+      gap: 2rem;
+    }
+  
+    .contact-us {
+      padding-block: 4rem;
+    }
+  
+    .about-intro {
+      width: 100%;
+      flex-direction: column;
+    }
+    .intro-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      max-width: 100%;
+      padding-right: 0;
+    }
+  
+    .intro-container-top {
+      justify-content: center;
+      align-items: center;
+      gap: 1.3rem;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .intro-container-bottom {
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      max-width: 100%;
+    }
+    .service-intro {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .services-top {
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .title-h2 {
+      text-align: center;
+    }
+    .services-top p {
+      text-align: center;
+      max-width: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 970px) {
+    .intro {
+      padding-inline: 2rem;
+    }
+    .cards {
+      padding-inline: 100px;
+    }
+    .about-us-container {
+      padding-inline: 2rem;
+    }
+    .apps-cards {
+      gap: 1rem;
+    }
+    .services-card1,
+    .services-card2,
+    .services-card3,
+    .services-card4,
+    .services-card5,
+    .services-card6 {
+      padding: 2rem 1rem;
+    }
+    .service-grid {
+      gap: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .app-containers {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .container1 {
+      max-width: 100%;
+    }
+  
+    .container2 {
+      max-width: 100%;
+    }
+  
+    .banner-div {
+      gap: 2rem;
+    }
+    .why-clients-cards {
+      flex-direction: column;
+      padding-inline: 2rem;
+    }
+    .why-clients {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 724px) {
+    .footer-container {
+      gap: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 515px) {
+    .cards {
+      padding-inline: 10px;
+    }
+    .about-us-container {
+      padding-inline: 1rem;
+    }
+    .about-us {
+      padding-inline: 1rem;
+    }
+  
+    .banner-div {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contact-texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact-us {
+      padding-inline: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    .app-title p {
+      width: 100%;
+    }
+  
+    .why-clients-cards {
+      padding-inline: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 455px) {
+    .hero-principal {
+      padding-inline: 2rem;
+      overflow: hidden;
+    }
+  
+    .app-section {
+      padding: 93px 20px;
+      gap: 2.3rem;
+      width: 100%;
+    }
+  
+    .app-title {
+      padding-inline: 0;
+    }
+    .container2,
+    .container1 {
+      padding: 3rem 2rem 4rem 2rem;
+    }
+  
+    .contact-us {
+      padding-inline: 1rem;
+    }
+    .contact-container {
+      margin: 0;
+    }
+    .tarjetas-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .tarjeta-noticias {
+      width: 100%;
+    }
+  
+    .noticias h2 {
+      padding: 0;
+      text-align: center;
+    }
+    .service-intro {
+      padding: 4rem 1rem;
+    }
+  
+    .faqs-last{
+      padding: 4rem 1rem;
+    }
+    .faq-content{
+      text-align: start;
+    }
+  }
+  
+  @media screen and (max-width: 430) {
+    .tarjeta-noticias {
+      width: auto;
+    }
+    .noticias h2 {
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .texto-intro {
+      gap: 0;
+    }
+    .card {
+      border: 1px solid #fff;
+      background-image: none;
+      padding: 80px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 453px) {
+    .texto-intro h2 {
+      font-size: 50px;
+    }
+    .card {
+      border: 1px solid #fff;
+      background-image: none;
+      padding: 80px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .cards-clients {
+      padding: 5rem 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1144px) {
+    .contact-us {
+      gap: 1rem;
+      padding-block: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .intro-text-btn {
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 700px;
+      padding: 1rem 0;
+    }
+    .title-intro {
+      flex-direction: column;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-intro {
+      padding: 7rem 3rem;
+      gap: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 546px) {
+    .about-images {
+      flex-direction: column;
+    }
+    .about-images div:last-child {
+      display: none;
+    }
+    .title-intro h2 {
+      max-width: 100%;
+    }
+    .about-us-intro {
+      padding-inline: 2rem;
+    }
+    .about-intro {
+      padding: 4rem 1rem;
+    }
+    .intro-img {
+      padding-inline: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .intro-container-bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .services-card1,
+    .services-card2,
+    .services-card3,
+    .services-card4,
+    .services-card5,
+    .services-card6 {
+      border: solid 1px #ebfbf3;
+      background-image: none;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .apps-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 660px){
+    .faq-collapsible{
+      height: 60px
+    }
+    .question{
+      font-size: 1rem;
+    }
+    .faq-answer p{
+      font-size: 12px;
+    }
+  }
+  
