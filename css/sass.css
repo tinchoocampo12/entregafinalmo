@@ -76,11 +76,10 @@ header {
   position: relative;
   padding: 0 8px;
 }
-.nav-list a:hover {
+.nav-list li a:hover {
   color: #01672f;
 }
-
-.menu-items a::after {
+.nav-list li a::after {
   content: "";
   position: absolute;
   background-color: #00b14f;
@@ -90,7 +89,7 @@ header {
   left: 0;
   transition: 0.2s ease-in;
 }
-.menu-items a:hover::after {
+.nav-list li a:hover::after {
   width: 100%;
 }
 

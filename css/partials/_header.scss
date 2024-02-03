@@ -19,22 +19,17 @@ header {
 	line-height: 150%;
 	li {
 		a {
-			text-decoration: none;
-			color: $color_3;
-			font-family: $font-family_1;
-			position: relative;
-			padding: 0 8px;
-		}
-	}
-	a {
-		&:hover {
+		  text-decoration: none;
+		  color: $color_3;
+		  font-family: $font-family_1;
+		  position: relative;
+		  padding: 0 8px;
+	  
+		  &:hover {
 			color: $color_4;
-		}
-	}
-}
-.menu-items {
-	a {
-		&::after {
+		  }
+	  
+		  &::after {
 			content: "";
 			position: absolute;
 			background-color: $background-color_2;
@@ -43,13 +38,13 @@ header {
 			bottom: -8px;
 			left: 0;
 			transition: 0.2s ease-in;
+		  }
+	  
+		  &:hover::after {
+			width: 100%;
+		  }
 		}
-		&:hover {
-			&::after {
-				width: 100%;
-			}
-		}
-	}
+}
 }
 .menu-btn {
 	font-family: $font-family_1;
